@@ -19,7 +19,7 @@ mail.starttls()
 # Logging in to the SMTP server
 mail.login("username@gmail.com", "gmail_password")
 # Sending the mail
-mail.sendmail("sender@gmail.com", "receiver@gmail.com",
+mail.sendmail("username@gmail.com", "receiver@gmail.com",
               "Subject: Hello Programmer.\nDon't you think Python is the best language?")
 # Disconnecting from the SMTP server
 mail.quit()
