@@ -1,3 +1,5 @@
+#!/usr/bin/pyhton3
+
 # Import all functions
 import datetime
 import smtplib
